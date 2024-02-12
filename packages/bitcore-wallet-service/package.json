@@ -37,7 +37,9 @@
     "lint": "tslint -c tslint.json 'src/**/*.ts'",
     "fix": "tslint --fix -c tslint.json 'src/**/*.ts'",
     "update:stats": "npm run clean && npm run tsc && chmod +x ./ts_build/updatestats/updatestats.js && ./ts_build/updatestats/updatestats.js ",
-    "clean:fiatrates": "npm run clean && npm run tsc && chmod +x ./ts_build/cleanfiatrates/cleanfiatrates.js && ./ts_build/cleanfiatrates/cleanfiatrates.js "
+    "clean:fiatrates": "npm run clean && npm run tsc && chmod +x ./ts_build/cleanfiatrates/cleanfiatrates.js && ./ts_build/cleanfiatrates/cleanfiatrates.js ",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "@sendgrid/mail": "6.5.4",
@@ -75,7 +77,8 @@
     "source-map-support": "0.5.16",
     "sticky-session": "0.1.0",
     "uuid": "3.4.0",
-    "winston": "3.3.3"
+    "winston": "3.3.3",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@types/async": "^2.4.1",
@@ -116,5 +119,6 @@
       "email": "ematiu@gmail.com"
     }
   ],
-  "gitHead": "ec2b236995f5208772518fa9e0a48c461ae0b3e3"
+  "gitHead": "ec2b236995f5208772518fa9e0a48c461ae0b3e3",
+  "snyk": true
 }
