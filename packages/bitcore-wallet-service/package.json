@@ -67,7 +67,7 @@
     "preconditions": "2.2.3",
     "read": "1.0.7",
     "request": "2.88.2",
-    "request-promise-native": "1.0.8",
+    "request-promise-native": "1.0.9",
     "secp256k1": "4.0.3",
     "sjcl": "1.0.8",
     "socket.io": "2.3.0",
