@@ -72,7 +72,7 @@
     "request-promise-native": "1.0.9",
     "secp256k1": "4.0.3",
     "sjcl": "1.0.8",
-    "socket.io": "4.5.2",
+    "socket.io": "4.6.0",
     "socket.io-client": "4.5.0",
     "source-map-support": "0.5.16",
     "sticky-session": "0.1.0",
