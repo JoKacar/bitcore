@@ -113,8 +113,8 @@
     "socket.io": "3.1.0",
     "source-map-support": "^0.5.13",
     "through2": "2.0.3",
-    "underscore": "1.12.1",
-    "web3": "4.0.1",
+    "underscore": "1.13.6",
+    "web3": "4.0.2",
     "winston": "3.2.0"
   },
   "gitHead": "ec2b236995f5208772518fa9e0a48c461ae0b3e3"
