@@ -65,16 +65,16 @@
     }
   },
   "devDependencies": {
-    "cz-customizable": "^5.2.0",
+    "cz-customizable": "^5.5.1",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.8.0",
     "husky": "^2.4.0",
-    "lint-staged": "^9.5.0",
+    "lint-staged": "^10.2.0",
     "prettier": "^1.19.1",
     "tslint": "^5.20.1",
     "tslint-config-prettier": "^1.18.0",
-    "typedoc": "^0.15.0",
-    "typescript-eslint-parser": "^15.0.0"
+    "typedoc": "^0.21.10",
+    "typescript-eslint-parser": "^19.0.1"
   },
   "dependencies": {
     "lerna": "^3.22.1",
