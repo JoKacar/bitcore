@@ -1,4 +1,4 @@
-FROM node:20.14-bookworm-slim
+FROM node:20.11-bookworm-slim
 
 # Install Chrome
 
