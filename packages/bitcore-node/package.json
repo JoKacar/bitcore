@@ -86,7 +86,7 @@
     "supertest": "7.0.0",
     "ts-node": "^9.0.0",
     "typescript": "4.9.4",
-    "typescript-eslint-parser": "20.1.0"
+    "typescript-eslint-parser": "19.0.1"
   },
   "dependencies": {
     "abi-decoder": "2.4.0",
