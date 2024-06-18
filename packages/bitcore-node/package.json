@@ -41,7 +41,9 @@
     "precommit": "npm run fix && npm run lint",
     "lint": "tslint -c ../../tslint.json 'src/**/*.ts'",
     "fix": "tslint --fix -c ../../tslint.json 'src/**/*.ts'",
-    "test:scripts": "npx mocha scripts/test"
+    "test:scripts": "npx mocha scripts/test",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "nyc": {
     "reporter": [
@@ -100,23 +102,25 @@
     "bitcore-p2p-cash": "^10.0.39",
     "bitcore-p2p-doge": "^10.0.36",
     "bitcore-wallet-client": "^10.0.41",
-    "body-parser": "1.18.3",
+    "body-parser": "1.19.2",
     "cors": "2.8.4",
     "crypto-rpc": "https://github.com/bitpay/crypto-rpc.git#2c94b2a671021ff8c76d08233147fe197f0794de",
     "crypto-wallet-core": "^10.0.39",
     "heapdump": "0.3.15",
     "http": "0.0.0",
-    "lodash": "4.17.11",
-    "mongodb": "3.6.0",
-    "request": "2.88.0",
+    "lodash": "4.17.21",
+    "mongodb": "3.6.10",
+    "request": "2.88.2",
     "secp256k1": "4.0.3",
-    "socket.io": "2.1.1",
+    "socket.io": "3.0.0",
     "source-map-support": "^0.5.13",
     "through2": "2.0.3",
-    "underscore": "1.8.3",
-    "web3": "1.7.0",
+    "underscore": "1.12.1",
+    "web3": "4.0.1",
     "winston": "3.2.0",
-    "xrpl": "2.6.0"
+    "xrpl": "2.6.0",
+    "@snyk/protect": "latest"
   },
-  "gitHead": "e091d99915d099863ad3e78dbe867aa7780191e4"
+  "gitHead": "e091d99915d099863ad3e78dbe867aa7780191e4",
+  "snyk": true
 }
