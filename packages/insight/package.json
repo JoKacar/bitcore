@@ -27,7 +27,7 @@
   "dependencies": {
     "@reduxjs/toolkit": "1.8.1",
     "assert": "2.1.0",
-    "axios": "0.21.1",
+    "axios": "1.6.3",
     "bitcore-lib": "^10.0.23",
     "bitcore-lib-cash": "^10.0.23",
     "bitcore-lib-doge": "^10.0.21",
@@ -52,7 +52,7 @@
     "redux": "4.2.0",
     "redux-thunk": "2.4.1",
     "stream-browserify": "3.0.0",
-    "styled-components": "5.3.5",
+    "styled-components": "5.3.7",
     "swr": "1.3.0",
     "url": "0.11.3",
     "web-vitals": "2.1.4"
