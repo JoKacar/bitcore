@@ -100,7 +100,7 @@
     "bitcore-p2p-cash": "^10.0.39",
     "bitcore-p2p-doge": "^10.0.36",
     "bitcore-wallet-client": "^10.0.42",
-    "body-parser": "1.18.3",
+    "body-parser": "1.19.2",
     "cors": "2.8.4",
     "crypto-rpc": "https://github.com/bitpay/crypto-rpc.git#2c94b2a671021ff8c76d08233147fe197f0794de",
     "crypto-wallet-core": "^10.0.39",
