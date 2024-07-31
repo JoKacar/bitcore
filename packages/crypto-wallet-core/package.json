@@ -29,7 +29,7 @@
     "bitcore-lib-ltc": "^10.0.36",
     "ethers": "^5.7.0",
     "info": "0.0.6-beta.0",
-    "web3": "1.4.0",
+    "web3": "1.5.3",
     "xrpl": "2.13.0"
   },
   "devDependencies": {
