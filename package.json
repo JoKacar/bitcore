@@ -67,7 +67,7 @@
     }
   },
   "devDependencies": {
-    "cz-customizable": "^5.2.0",
+    "cz-customizable": "^5.5.3",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.8.0",
     "husky": "^2.4.0",
