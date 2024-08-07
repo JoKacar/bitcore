@@ -56,7 +56,7 @@
     "karma-chrome-launcher": "^3.1.1",
     "karma-mocha": "^2.0.1",
     "lodash": "^4.17.15",
-    "mocha": "^7.1.2"
+    "mocha": "^9.2.2"
   },
   "gitHead": "012cc0216a9bc6b195035855bd17149bad41acd1"
 }
